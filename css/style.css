@@ -1,0 +1,75 @@
+body {
+  background-color: #222;
+  background-image: url("../images/zigzagbackground.jpg");
+}
+
+h1{
+  color: black;
+  font-family: 'Sanchez', serif;
+}
+
+h3{
+  color:#624102;
+  font-family: 'Sanchez', serif;
+}
+
+h4{
+  color:#624102;
+  font-family: 'Sanchez', serif;
+}
+
+p{
+  color:#9C7F49;
+  font-family: 'Lato', sans-serif;
+}
+
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  background-color: #422B00;
+}
+
+.hero-top {
+  background: url("../images/coverbg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.dark-transparency {
+  padding: 25px;
+  background-color: rgba(184,89,0,.80);
+}
+
+.hero-top .lead {
+  color: black;
+  font-style: italic;
+}
+
+.margin-top15 {
+  margin-top: 15px;
+}
+
+.margin-bottom15 {
+  margin-bottom: 15px;
+}
+
+.margin-right15 {
+  margin-right: 15px;
+}
+
+@media (max-width: 575px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.img-book, .bio-pic{
+  margin-right:35px;
+  margin-bottom:5px;
+}
+
+.row{
+  margin-top:10px;
+}
+ 
